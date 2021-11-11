@@ -1,20 +1,20 @@
 {
-  "name": "LBATSLibrary",
-  "version": "0.0.1BETA",
+  "name": "@webcenterka/lba-ts-library",
+  "version": "0.0.1",
   "description": "Little Big Adventure Core Library written in typescript",
-  "author": "Krzysztof Adamczewski kat15pl@gmail.com",
-  "license": "GNU v. 3.0",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kat15/LBATSLibrary.git"
+  },
+  "keywords": [
+    "LBA"
+  ],
+  "author": "Krzysztof Adamczewski (kat15pl@gmail.com)",
+  "license": "GPL-3.0",
   "scripts": {
-    "build": "tsc",
-    "dev": "nodemon src/index.ts",
-    "test": "jest",
-    "test:unit": "jest unit",
-    "test:int": "jest int",
-    "test:coverage": "jest --coverage",
-    "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
@@ -26,15 +26,11 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
-    "husky": "^7.0.4",
-    "jest": "^27.3.1",
     "lint-staged": "^11.2.6",
     "nodemon": "^2.0.15",
     "prettier": "^2.4.1",
-    "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   },

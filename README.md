@@ -1,4 +1,4 @@
-# LBATSLibrary v. 0.0.1BETA
+# LBATSLibrary v. 0.0.1
 Little Big Adventure Library written in Typescript
 
 ## How to install?
@@ -8,7 +8,7 @@ TODO
 
 ## How to use?
 ```
-import HQR from './hqr';
+import { HQR } from '@webcenterka/lba-ts-library';
 
 const hqr = new HQR(),
     textEntriesIndex = 1, //index in HQR file (starts from 0)

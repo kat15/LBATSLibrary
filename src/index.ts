@@ -1,4 +1,4 @@
-import HQR from './hqr';
+import HQR from './HQR';
 
 export {
     HQR
